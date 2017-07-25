@@ -1,0 +1,9 @@
+Bundle-Name: employeeservice-api
+Bundle-SymbolicName: com.bmw.employeeservice.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.bmw.employeeservice.exception,\
+	com.bmw.employeeservice.model,\
+	com.bmw.employeeservice.service,\
+	com.bmw.employeeservice.service.persistence
+-includeresource: META-INF/service.xml=../employeeservice-service/service.xml
